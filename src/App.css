@@ -1,0 +1,80 @@
+
+
+.container {
+width: 100%;
+height: 100vh;
+background-color: #161515;
+color: white;
+padding: 30px;
+display: flex;
+align-items: center;
+
+}
+
+.form{
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: flex-start;
+
+}
+
+.inp{
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  text-indent: 20px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.btn{
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #1647af;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold; 
+  border: 1px solid #1647af;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #5c77af;
+}
+
+a {
+  color: #1647af;
+  text-decoration: none;
+}
+
+.not-found{
+  width: 100%;
+  text-align: center;
+}
+
+.success{
+  background-color: lightgreen;
+  color: green;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 1;
+}
+.error{
+  background-color: lightpink;
+  color: red;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.invisible-msg{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+}
